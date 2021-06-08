@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- untitled strings -->
+
+    <string name="app_name">TrueVision</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="welcome_to_truevision_string">Welcome to TrueVision</string>
+    <string name="click_here_to_get_started_string">Click here to get started </string>
+    <string name="here_to_offer_you_visiual_comfort_string">here to offer you visiual comfort </string>
+</resources>

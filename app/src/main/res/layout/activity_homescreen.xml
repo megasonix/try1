@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#597577EF"
+    tools:context=".Homescreen">
+
+
+        <ImageView
+            android:id="@+id/design"
+            android:layout_width="434dp"
+            android:layout_height="371dp"
+
+            android:layout_marginBottom="160dp"
+            android:src="@drawable/style"
+            app:layout_constraintBottom_toTopOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.645"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/whatyour"
+            android:layout_width="276dp"
+            android:layout_height="173dp"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/bree_serif"
+            android:text="Select What you're having Trouble with?"
+
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/design"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/object"
+            android:layout_width="270dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/buttoons"
+            android:gravity="center"
+            android:text="having trouble detecting an object"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/color" />
+
+        <Button
+            android:id="@+id/color"
+            android:layout_width="270dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/buttoons"
+            android:gravity="center"
+            android:text="having trouble detecting a color"
+            app:layout_constraintBottom_toTopOf="@+id/object"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/design" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- untitled colors -->
+
+	<color name="colorPrimary">#4D53C8</color>
+	<color name="colorPrimaryDark">#1A237E</color>
+	<color name="colorAccent">#8CA3DD</color>
+
+	<color name="_bg__activitymain_color">#FFFFFF</color>
+	<color name="rectangle1_color">#8CA3DD</color>
+	<color name="ellipse_5_color">#FAFAFB</color>
+	<color name="ellipse_6_color">#4D53C8</color>
+	<color name="line_1_color">#000000</color>
+	<color name="ellipse_8_color">#D2DBF2</color>
+	<color name="here_to_offer_you_visiual_comfort_color">#777777</color>
+</resources>

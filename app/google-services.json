@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023141173969",
+    "firebase_url": "https://truevision-537a3-default-rtdb.firebaseio.com",
+    "project_id": "truevision-537a3",
+    "storage_bucket": "truevision-537a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023141173969:android:5a0e42618629116b9443f0",
+        "android_client_info": {
+          "package_name": "com.example.atry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023141173969-ci610bvet1cbhg7dvs3si31om0o2059o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atry",
+            "certificate_hash": "3a3a6cc2a2f79637597bbba9a46593c8bd1504d9"
+          }
+        },
+        {
+          "client_id": "1023141173969-eqtft71esttoblf1m25n4am1l86b09l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Pte3dDgiKaZBcsEJ6egmWEXjmCnE-4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023141173969-eqtft71esttoblf1m25n4am1l86b09l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
