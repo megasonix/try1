@@ -158,7 +158,15 @@ public class Results extends AppCompatActivity {
         } else if (requestCode == CAMERA_IMAGE_REQUEST && resultCode == RESULT_OK) {
             Uri photoUri = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".provider", getCameraFile());
             uploadImage(photoUri);
-            uploadToFirebase(photoUri);
+            for(int i = 1; i > 0 ; i++){
+
+                if(!mImageDetails.equals(R.string.loading_message) && mMainImage != null) {
+                    uploadToFirebase(photoUri);
+                    break;
+                }
+            }
+
+
         }
     }
 
@@ -246,6 +254,8 @@ public class Results extends AppCompatActivity {
             Log.d(TAG, "Image picker gave us a null image.");
             Toast.makeText(this, R.string.image_picker_error, Toast.LENGTH_LONG).show();
         }
+
+
     }
 
     private Vision.Images.Annotate prepareAnnotationRequest(Bitmap bitmap) throws IOException {
